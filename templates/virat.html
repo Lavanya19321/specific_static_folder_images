@@ -1,0 +1,72 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img
+        {
+            border-radius: 0px 30px 0px 45px;
+            border: 3px sandybrown;
+            background-color: blue;
+            height: 500px;
+            width: 500px;
+            border-bottom: 30px;
+            
+        }
+        #virat
+        {
+           
+            color: brown;
+            padding:4px ;
+            margin: 10%;
+            position: relative;
+            padding: 20px 40px;
+        
+        }
+        #dhoni
+        {
+          
+            color: gold;
+            margin: 10%;
+            position: relative;
+            padding: 20px 40px;
+
+        
+        
+        }
+        div{
+            padding: 20px 100px;
+            position: relative;
+            border: 40px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div id="virat">
+     <center>
+    <h1>virat kohli</h1>
+    <img src="{% static 'images/virat.jpg' %}" alt="nnnnno">
+    </center>
+    
+
+
+</div>
+<div id="dhoni">
+    <center>
+    <h1>MSdhoni</h1>
+    <img src="{% static 'images/dhoni.jpeg' %}" alt="nnnnno">
+</center>
+
+</div>
+</div>
+
+
+
+    
+
+</body>
+</html>
